@@ -1,0 +1,115 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+section{
+    height: 100vh;
+}
+
+nav{
+    position:fixed;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    left: 0px;
+    top: 0px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.navlist{ 
+    list-style-type: none;
+    width: 25%;
+    height: 100%;
+}
+li{
+    display: block;
+    padding: 60px 10px;
+    text-decoration: none
+}
+
+.nav{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.nav:hover {
+    background-color: white;
+    color: #000000;
+    box-shadow: 0 0 20px yellow;
+    text-shadow: 0 0 5px yellow;
+  }
+
+
+.home{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 700px;
+    left: 500px;
+    top: 100px;
+    
+    
+}
+.intro{
+    word-spacing: 4px;
+    line-height: 50px;
+}
+
+.introh{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s forwards;
+}
+@keyframes typing {
+    from { width: 0% }
+    to { width: 100% }
+}
+
+.about{
+    position: relative;
+    width: 800px;
+    height: 100%;
+    font-size: 30px;
+    left: 500px;
+    top: 100px;
+}
+
+.abl{
+    list-style-type: disc;
+}
+
+.aboutlist{
+    display: list-item;
+    width: 100%;
+    padding: 30px;
+}
+
+
+
+.insta{
+    
+    width: 60px;
+    height: 60px;
+}
+.linkedin{
+    width: 60px;
+    height: 60px;
+
+}
+.contacts{
+    position: relative;
+    top: 200px;
+    left: 500px;
+    width: 800px;
+    font-size: 40px;
+    
+}
+
+.contactl li{
+    display: inline;
+    padding-right: 50px;
+}
